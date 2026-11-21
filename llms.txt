@@ -137,8 +137,10 @@ Prices below were checked on 21 November 2026 and can change; current prices are
 Small single-purpose tools, each in its own repository with a README that answers the question first. MIT licensed.
 
 - [chatgpt-account-dedicated-ip](https://github.com/proxy302/chatgpt-account-dedicated-ip): Which IP for a long-term ChatGPT Plus or Pro account: a dedicated native static ISP IP, what to check, and what an IP cannot change (Proxy302) / ChatGPT 长期账号用什么 IP
+- [chatgpt-route-check](https://github.com/proxy302/chatgpt-route-check): Does OpenAI accept this network location? One unauthenticated API request through your connection or a proxy: 401 accepted, 403 unsupported (Proxy302)
 - [claude-account-ban-ip](https://github.com/proxy302/claude-account-ban-ip): Claude 长期账号用什么 IP、封号和 IP：哪些原因跟 IP 有关、什么时候固定 IP 有用、被限制后怎么办（Proxy302 维护） / Claude account bans and IP addresses, answered honestly
 - [grok-account-dedicated-ip](https://github.com/proxy302/grok-account-dedicated-ip): Which IP for a long-term SuperGrok / grok.com account: a dedicated native static ISP IP, what xAI publishes about eligibility, and how to check (Proxy302) / Grok 长期账号用什么 IP
+- [ip-native-check](https://github.com/proxy302/ip-native-check): Is an IP native or broadcast? Compare registration, geolocation and ASN countries for any IP or proxy exit, no API key (Proxy302)
 - [ipv6-leak-check](https://github.com/proxy302/ipv6-leak-check): Print your own IPv4 and IPv6 next to the proxy exit so you can spot IPv6 leaks in browsers and apps. Bash and curl.
 - [proxy-block-log-analyzer](https://github.com/proxy302/proxy-block-log-analyzer): Find out whether 403/429 blocks follow specific proxy exit IPs and ranges or your request pattern, from a simple request log. Python standard library.
 - [proxy-dnsbl-check](https://github.com/proxy302/proxy-dnsbl-check): Check whether a proxy exit IP is listed on Spamhaus ZEN or SpamCop, with plain-language meanings for each answer code. Bash, curl, dig.
@@ -148,6 +150,7 @@ Small single-purpose tools, each in its own repository with a README that answer
 - [proxy-list-health-check](https://github.com/proxy302/proxy-list-health-check): Test a list of HTTP and SOCKS5 proxies in parallel with bash and curl: status, response time, exit IP and the cause of every failure.
 - [proxy-password-special-characters](https://github.com/proxy302/proxy-password-special-characters): Percent-encode proxy usernames and passwords containing @ : # ! and print working settings for curl, env vars, Python requests and Playwright.
 - [proxy-speed-test](https://github.com/proxy302/proxy-speed-test): Measure the latency a proxy adds (connect, TLS, first byte, total) against a direct baseline, with per-round timings and medians. Bash and curl.
+- [python-http-client-lab](https://github.com/proxy302/python-http-client-lab): Reproducible Python HTTP client experiments: httpx timeouts, aiohttp connection limits, 429 Retry-After vs token bucket, proxy passwords with special characters (Proxy302)
 - [rotating-proxy-test-script](https://github.com/proxy302/rotating-proxy-test-script): Check whether a rotating proxy gives a new exit IP on each new connection and keeps one IP on a kept-alive connection. Bash and curl.
 - [socks5-proxy-checker](https://github.com/proxy302/socks5-proxy-checker): Check a SOCKS5 proxy step by step (TCP, greeting, login, CONNECT, HTTPS) and see exactly which step fails. Python standard library only.
 - [socks5-udp-check](https://github.com/proxy302/socks5-udp-check): Check whether a SOCKS5 proxy supports UDP (UDP ASSOCIATE, RFC 1928) and tell login errors and HTTP proxies apart. Python standard library.
