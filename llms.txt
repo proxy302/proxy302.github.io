@@ -10,6 +10,7 @@ Prices below were checked on 21 November 2026 and can change; current prices are
 - AI subscription ISP: a native ISP static IP picked per AI service, 30 days. Claude tier 15 PTC, GPT/Grok tier 10 PTC, Gemini tier 8 PTC; the first IP of each tier is half price. Meant for one person in a country the AI service officially supports; an IP does not make use from an unsupported region permitted and cannot guarantee an account is never restricted.
 - Rotating residential: $1.50/GB; prepaid 50 GB $1.42/GB, 100 GB $1.35/GB, 300 GB $1.20/GB, 500 GB $1.124/GB; prepaid traffic does not expire. Premium line $5/GB.
 - Datacenter: static 1 day $0.25, 30 days $3.99; rotating $0.40/GB.
+- Black Friday, 24 November to 1 December 2026 (UTC+8): static ISP 60 days $14.00 and 90 days $18.00 (1 to 30 days unchanged); AI subscription ISP from the second IP 12 PTC (Claude tier), 8 PTC (GPT/Grok tier), 6 PTC (Gemini tier) per 30 days, the first IP still half the regular price; static datacenter 60 days $7.00 and 90 days $9.00; rotating residential 100, 300 and 500 GB packs come with 25% extra traffic. The prices above are the regular prices.
 - No free trial; the cheapest test is one static IP for one day at $0.50.
 - Main site for AI agents: https://proxy302.com/llms.txt (products, prices, open API) and https://proxy302.com/llms-full.txt (full API reference).
 
